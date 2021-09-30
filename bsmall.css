@@ -1,3 +1,14 @@
-.prod-main-img{left: 50% !important; margin-left: -980px}
+.prod-main-img{left: 50% !important; margin-left: -980px !important;}
 
 .prod-item-box{overflow: hidden; max-height: 450px;}
+
+.prod-item-img{max-width: 100%;}
+
+
+@media (max-width: 767px) {
+
+.prod-main-img, .prod-main-box{height: 16rem !important;}
+
+.prod-main-img{margin-left: -460px !important}
+
+}
